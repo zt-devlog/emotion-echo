@@ -36,7 +36,6 @@ AI tools like ChatGPT were used for:
 
 ### 🔗 Live Demo
 
-
+[https://zt-devlog.github.io/emotion-echo/](https://zt-devlog.github.io/emotion-echo/)
 ---
 
-Let me know what title you'd prefer for the project, or if you want me to rewrite it in a more poetic, resume-style, or casual tone! Want help deploying to GitHub Pages again too?
