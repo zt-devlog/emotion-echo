@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emotion Echo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Quicksand:wght@300;400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="banner"> 🌸 Emotion Echo · 感情反射システム · By Zoe Thompson 🌸 <span class="jp"></span></div>
+  </header>
+
+  <div id="container">
+    <h1>How are you feeling? <span class="jp">今の気持ちは？</span></h1>
+    <form id="emotionForm">
+      <label for="emotionInput">Enter your emotion:</label>
+      <input type="text" id="emotionInput" placeholder="e.g. anxious, happy..." required />
+      <button type="submit">Reflect <span class="jp">反映</span></button>
+    </form>
+
+    <div id="output">
+      </div>
+
+    <section id="diary" class="diary-log">
+      <h2>Diary</h2>
+      <button id="clearDiary">Clear Diary</button>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+  <script src="particles.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+
+</body>
+
+</html>
+
+  
