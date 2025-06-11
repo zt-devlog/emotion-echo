@@ -5,34 +5,68 @@
 Built with JavaScript, HTML5, and CSS3 | Designed in DTC 477
 By: Zoe Thompson
 
-### 🧠 Project Overview
+# Emotion Echo 🌈🧠
 
-**Emotion Echo** is an interactive front-end web app that responds to a user’s emotional input with calming visuals, empathetic advice, and a personalized journal log. It's designed to evoke comfort, reflection, and introspection in users navigating complex feelings.
+**Emotion Echo** is an interactive web app that reflects user emotions through soft atmospheric visuals, inspirational messages, and personalized journal entries.
 
-### ✨ Features
+When users type an emotion in English, the app displays a curated message, a matching background image via the Unsplash API, and advice related to their current feeling. It also stores each interaction in a local "emotion diary" for personal reflection.
 
-* 🎨 Dynamic color and background changes based on emotion
-* 💬 Tailored messages and inspirational quotes
-* 🌅 Real-time Unsplash image API integration for atmosphere
-* 🧾 Persistent emotion diary using `localStorage`
-* 🎈 Background particles for a soft ambient UI
+---
 
-### 🔧 Tech Stack
+## 🌟 Features
 
-* HTML5 + CSS3 (responsive, minimal, modern)
-* JavaScript (vanilla, no frameworks)
-* Unsplash API
-* LocalStorage
-* Custom particle engine (`particles.js`)
+- 🔤 English-based emotion input
+- 🎨 Dynamic visuals powered by `particles.js` and Unsplash backgrounds
+- 📖 Emotion diary using localStorage
+- 🧘 Poetic, supportive feedback based on emotional tone
+- 🛠️ Modular, readable JavaScript functions
 
-### 🧪 Development Notes
+---
 
-This project was completed as a part of the **DTC 477** web development course at WSUV.
-AI tools like ChatGPT were used for:
+## 🧪 Technologies Used
 
-* Code planning and function design
-* Refactoring and debugging
-* Learning efficient async handling and data structures
+- HTML / CSS / JavaScript
+- Unsplash API
+- `localStorage` for client-side data persistence
+- ChatGPT-assisted planning and debugging
+- p5.js for floating particles background effect
+
+---
+
+## 🚀 How to Use
+
+1. Type your current emotion in English (e.g., *happy*, *anxious*, *hopeful*).
+2. Hit **Enter** or click the **Submit** button.
+3. View your personalized message, reflection, and evolving background.
+4. Use the diary log to revisit past entries.
+5. Click **Clear Diary** to reset.
+
+---
+
+## 🔐 API Key Notice
+
+This project uses the Unsplash API. In a production environment, **do not expose your API key in public repos**. For educational use only.
+
+---
+
+## 👩‍💻 Author
+
+Zoe Thompson — [GitHub Portfolio](https://github.com/zt-devlog)  
+Created as part of **DTC 477: Advanced Web Development** coursework.
+
+---
+
+## 💬 Japanese Prompt Translation
+
+The prompt “Enter your emotion in English please” appears as:  
+**「感情を英語で入力してください。」**
+
+---
+
+## 📜 License
+
+For academic showcase purposes only. Not intended for commercial distribution.
+
 
 ### 🔗 Live Demo
 
